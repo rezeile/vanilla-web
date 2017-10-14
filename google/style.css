@@ -1,0 +1,57 @@
+/* Html structure */
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#search-button {
+  display: flex;
+  justify-content: center;
+}
+
+ul, li {
+  list-style: none;
+}
+
+/* General Styles */
+
+div,ul,li {
+  padding: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Top Navigation */
+button {
+  background: none;
+  border: none;
+}
+/* Main Content */
+#logo {
+  width: 400px;
+  align-self: center;
+}
+
+.mainbuttons {
+  background-color: #f2f2f2;
+  font-size: 17px;
+  color: #757575;
+  font-family: arial, sans-serif;
+  margin: 11px 4px;
+  padding: 16px 16px;
+}
+
+#search-box {
+  margin: 0 400px;
+}
+
+/* Footer */
